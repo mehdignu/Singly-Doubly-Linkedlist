@@ -13,9 +13,8 @@ public class main {
 		Listable<Student> list = new SinglyLinkedList<Student>();
 		list.add(s1);
 		list.add(s2);
-		list.add(s3);
-		list.insertAt(1, s4);
-		//list.delete(1);
+		//list.add(s3);
+		list.delete(1);
 		
 		System.out.println(list.getSize());
 		list.printAll();
